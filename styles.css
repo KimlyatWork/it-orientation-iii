@@ -1,0 +1,194 @@
+/* Import Font Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Header and Footer CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  
+  }
+  
+  header {
+    background-color: #1c6920;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    z-index: 99;
+    position: sticky;
+  }
+  
+  
+  footer {
+    background-color: #1c6920;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    z-index: 99;
+    position: sticky;
+  }
+  
+  .flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .footer {
+    margin-top: auto;
+    font-size: 14px;
+    justify-content: center;
+  }
+
+  .footer p{
+    margin: auto;
+  
+  }
+  
+  
+  @media (max-width: 768px) {
+    .header-content,
+    .footer-content {
+        padding: 0 20px;
+    }
+  }
+
+  /* Image Box */
+
+.imgboxsmall {
+    display: flex;
+    justify-items: center;
+    margin-top: 50px;
+  }
+  
+  .imgboxsmall img{
+    width: 600px;
+  }
+
+  .screenshot, .lesson-pics {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  /* one Button Contain */
+
+.container {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .center {
+    margin: 10px;
+    position: absolute;
+  }
+
+  /* Text Box */
+
+.textbox {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .text {
+    width: 600px;
+  }
+  
+  .text h1{
+    font-size: 16px;
+  }
+  
+  .text p{
+    font-size: 12px;
+  }
+
+  /* Button */
+
+.but {
+    background-color: #1c6920;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 5px #dfdfdf;
+    border-radius: 7px;
+    font-weight: 500;
+  }
+  
+  .but:hover {
+    background-color: #337037;
+    box-shadow: 0 5px #e7e7e7;
+  }
+  
+  .but:active {
+    background-color: #17551b;
+    box-shadow: 0 5px #919191;
+    transform: translateY(4px);
+  }
+
+  /* Audio & Buttons Box */
+
+.big-box{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.small-box {
+  width: 125px;
+  height: auto;
+  display: flex;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+
+}
+
+/* Aduio Box */
+
+audio::-webkit-media-controls-play-button, 
+audio::-webkit-media-controls-panel { 
+  background-color: #ffffff; 
+  color: #ffffff;
+  border-radius: 0; 
+}
+
+.audio-box {
+display: flex;
+justify-content: space-evenly;
+}
+
+.audio-text-box {
+width: 340px;
+text-align: center;
+font-size: 12px;
+}
+
+/* Quiz Box layout Redefine */
+.quiz-big-box {
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.quiz-small-box {
+  width: 125px;
+  height: auto;
+  display: flex;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+}
+
